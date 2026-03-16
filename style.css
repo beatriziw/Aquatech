@@ -1,0 +1,91 @@
+
+.header{
+    background-color:black;
+    padding: 15px;
+    border-bottom: 4px solid #00c2c7 ;
+    
+}
+.container{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:row;
+}
+.titulo{
+    font-family:monospace;
+    color:#00c2c7;
+    margin-left:70px;
+
+}
+.navbar{
+    font-family: monospace;
+    display:flex;
+    gap: 20px;
+    flex-direction: row;
+    margin-right:70px;
+}
+.navbar a{
+    color:gold;
+}
+
+.agora{
+    font-weight:bold;
+}
+.banner{
+    height:500px;
+    background-image:url("assets/imgs/bg-jelly-fish-para-outras_pags.png");
+    display:flex;
+    justify-content:center;
+}
+.banner p{
+    width:300px;
+    font-size:40px;
+    font-family:monospace;
+    color:white;
+    
+}
+
+.banner span{
+    font-weight: bold;
+}
+
+.social{
+    height:400px;
+    background-color: #d9dada;
+    
+}
+
+.boxes{
+    font-family: monospace;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction:row;
+
+}
+.box{
+    width:20%;
+    text-align: center;
+    padding-top: 50px;
+    position:relative;  
+}
+.box img{
+    width:100px;
+
+}
+
+.box h4{
+    
+    font-weight: bold;
+    font-size:20px;
+    color: #fc0fc0;
+
+}
+.footer{
+    height:100px;
+    background-color: #00c2c7;
+    color:white;
+    font-family:calibri;
+    display:flex;
+    justify-content: center;
+}
